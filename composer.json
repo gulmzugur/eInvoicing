@@ -1,0 +1,31 @@
+{
+    "name": "gulmzugur/einvoicing",
+    "description": "This library allows you to create, edit and sign invoices via e-Archive via PHP.",
+    "homepage": "https://github.com/gulmzugur/einvoicing",
+    "license": "MIT",
+    "keywords": [
+        "einvoicing",
+        "e-invoicing",
+        "invoice",
+        "e-archive",
+        "e-fatura",
+        "e-arşiv"
+    ],
+    "authors": [
+        {
+            "name": "Uğur Gülmez",
+            "email": "gulmzugur@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ramsey/uuid": "^4.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "mpdf/mpdf": "^8.0.12 "
+    },
+    "autoload": {
+        "psr-4": {
+            "eInvoicing\\": "src/"
+        }
+    }
+}
